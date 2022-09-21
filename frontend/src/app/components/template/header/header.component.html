@@ -5,9 +5,11 @@
         </a>
     </span>
     <span class="title-group">
-        <a routerLink="/">            
-            <i class="material-icons icon">home</i>
-            Aplicação CRUD
+        <a routerLink="{{ routeUrl }}">            
+            <i class="material-icons icon">
+                {{ icon }}
+            </i>
+            {{ title }}
         </a>
     </span>
 </mat-toolbar>

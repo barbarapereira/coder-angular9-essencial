@@ -65,6 +65,7 @@ registerLocaleData(localePt);
     MatFormFieldModule,
     MatInputModule,
     MatTableModule
+
   ],
   providers: [{
     provide: LOCALE_ID,
